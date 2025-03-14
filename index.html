@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- import icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="signin-form">
+            <div class="text">Sign in</div>
+            <div class="connection-type">
+                <div class="accounts">
+                    <label for="accounts">Connect using</label>
+                    <button class="facebook">Facebook</button>
+                    <button class="Google">Google</button>
+                </div>
+                <form action="">
+                    <div class="input-line">
+                        <input type="email" name="name" placeholder="E-mail">
+                    </div>
+                    <div class="input-line">
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="remember-forgot">
+                        <div class="remember">
+                            <input type="checkbox" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <div class="forgot"><a href="#">Forgot password?</a></div>
+                    </div>
+                    <button class="submit" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+        <div class="signup-form">
+            <div class="text">Sign up</div>
+            <div class="connection-type">
+                <div class="accounts">
+                    <label for="">Creating account using</label>
+                    <button class="facebook">Facebook</button>
+                    <button class="Google">Google</button>
+                </div>
+                <form action="">
+                    <input type="text" name="Name" placeholder="Name">
+                    <input type="email" name="mail" placeholder="E-mail">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Repeat password">
+                    <button class="submit" type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
