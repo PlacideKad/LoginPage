@@ -13,12 +13,19 @@
 <body>
     <div class="container">
         <div class="signin-form">
-            <div class="text">Sign in</div>
+            <div class="title"></div>
+            <h1>Sign in</h1>
             <div class="connection-type">
                 <div class="accounts">
-                    <label for="accounts">Connect using</label>
-                    <button class="facebook">Facebook</button>
-                    <button class="Google">Google</button>
+                    <h2>Connect using</h2>
+                    <button class="facebook">
+                        <i class='bx bxl-facebook'></i>
+                        <h3>Facebook</h3>
+                    </button>
+                    <button class="github">
+                        <i class='bx bxl-github'></i>
+                        <h3>Github</h3>
+                    </button>
                 </div>
                 <form action="">
                     <div class="input-line">
@@ -30,27 +37,42 @@
                     <div class="remember-forgot">
                         <div class="remember">
                             <input type="checkbox" name="remember">
-                            <label for="remember">Remember me</label>
+                            <h2>Remember me</h2>
                         </div>
                         <div class="forgot"><a href="#">Forgot password?</a></div>
+                    </div>
+                    <div class="create-account">
+                        <h2>Don't have a count?</h2>
+                        <a href="#">Create a count</a>
                     </div>
                     <button class="submit" type="submit">Sign in</button>
                 </form>
             </div>
         </div>
         <div class="signup-form">
-            <div class="text">Sign up</div>
+            <div class="title"></div>
+            <h1>Sign up</h1>
             <div class="connection-type">
                 <div class="accounts">
-                    <label for="">Creating account using</label>
-                    <button class="facebook">Facebook</button>
-                    <button class="Google">Google</button>
+                    <h2>Create account using</h2>
+                    <button class="facebook">
+                        <i class='bx bxl-facebook'></i>
+                        <h3>Facebook</h3>
+                    </button>
+                    <button class="github">
+                        <i class='bx bxl-github'></i>
+                        <h3>Github</h3>
+                    </button>
                 </div>
                 <form action="">
                     <input type="text" name="Name" placeholder="Name">
                     <input type="email" name="mail" placeholder="E-mail">
                     <input type="password" placeholder="Password">
                     <input type="password" placeholder="Repeat password">
+                    <div class="create-account">
+                        <h2>Already have a count?</h2>
+                        <a href="#">Connect Sign in</a>
+                    </div>
                     <button class="submit" type="submit">Sign up</button>
                 </form>
             </div>
